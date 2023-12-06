@@ -33,7 +33,7 @@ export default function ProductList() {
     ]
   return (
     <>
-       <div className="productListContent lg:w-10/12 lg:ms-8 xl:ms-20 lg:columns-3">
+       <div className="productListContent mx-8 md:mx-0 lg:columns-3 ">
             {cardImg.map((card)=>(
                 <Cards img={card.img} key={card.img}/>
             ))}

@@ -4,7 +4,7 @@ import { Button } from './button'
 export default function Cards(props:any) {
   return (
     <>
-      <div className="card rounded-2xl shadow-lg xl:w-72 lg:w-56 py-2 mb-4 px-4">
+      <div className="card rounded-2xl shadow-lg xl:w-72 lg:w-56 py-2 mb-4 px-4 xl:me-8 me-0">
         <img src={'/images/'+props.img+'.png'} alt="" width={200} className='mb-4 mx-auto'/>
         <h5 className='font-bold lg:text-sm xl:text-md mb-2'>Apple Airpods Pro MWP22A M/A Bluetooth 7.1 </h5>
         <p className='text-xs mb-2 text-[#8B8B8B]'>Min Quantity : 150</p>
